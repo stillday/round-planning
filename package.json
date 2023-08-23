@@ -32,9 +32,12 @@
 	"volta": {
 		"node": "18.17.1"
 	},
-    "packageManager": "pnpm@8.6.11",
-    "engines": {
-        "pnpm": "^8.0.0"
-    },
-	"type": "module"
+	"packageManager": "pnpm@8.6.11",
+	"engines": {
+		"pnpm": "^8.0.0"
+	},
+	"type": "module",
+	"dependencies": {
+		"@supabase/supabase-js": "^2.33.1"
+	}
 }
