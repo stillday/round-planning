@@ -10,11 +10,11 @@
 	$: ({ supabase, session } = data)
 
 	onMount(async() => {
-		const { data, error } = await supabase.auth.signInWithOAuth({
-  		provider: 'discord'
-		})
-
-		return () => data.subscription.unsubscribe()
+		// const { data, error } = await supabase.auth.signInWithOAuth({
+  	// 	provider: 'discord'
+		// })
+		// console.log('data', data);
+		// return () => data.subscription.unsubscribe()
 	})
 </script>
 
